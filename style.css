@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+main, footer {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+
+
+#mainPhoto {
+    border-radius: 50%;
+    width: 15%;
+}
+
+h1 {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    text-align: left;
+}
+
+h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    color: gray;
+    text-align: left;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+
+
+
+nav, li {
+
+    text-decoration: none;
+}
+
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+}
+
+section:nth-child(even), nav {
+    background-color: #ddd;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    color: #8A9896;
+    text-align: left;
+    line-height: 2.0;
+    margin-right: 400px;
+}
+
+.projectImg {
+    width: 35%;
+    height: auto;
+}
+
+footer {
+    margin-bottom: 150px;
+}
