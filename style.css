@@ -9,9 +9,12 @@ main, footer {
 }
 
 #mainPhoto {
+    margin-top: 100px;
+    float: right;
     border-radius: 50%;
     width: 15%;
 }
+
 
 h1 {
     color: gray;
@@ -30,10 +33,7 @@ h2, h3 {
 }
 
 
-
-
 nav, li {
-
     text-decoration: none;
 }
 
@@ -55,16 +55,18 @@ p {
     margin-right: 400px;
 }
 
-.projectImg {
+#projectImg1 {
     width: 35%;
     height: auto;
+    float: right;
+    margin-top: 100px;
 }
 
 footer {
     margin-bottom: 150px;
 }
 
-/* for mobile screen sizes that have a width of 720px and below */
+/* Media Query for Mobile Devices  */
 @media screen and (max-width: 720px) {
   main, footer {
     margin-top: 25px;
@@ -72,14 +74,18 @@ footer {
     margin-right: 25px;
   }
 
-    #mainPhoto {
+    #mainPhoto { 
       border-radius: 50%;
       width: 60%;
+      float: none;
   }
 
     #projectImg1 {
       border-radius: 50%;
       width: 60%;
-  }
+      float: none;
+      margin-top: 0px;
+      margin-bottom: 0px;
 
+  }
 }
