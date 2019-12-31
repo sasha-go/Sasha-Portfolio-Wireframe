@@ -5,10 +5,8 @@
 main, footer {
     margin-top: 100px;
     margin-left: 100px;
-    margin-right: auto;
+    margin-right: 100px;
 }
-
-
 
 #mainPhoto {
     border-radius: 50%;
@@ -64,4 +62,24 @@ p {
 
 footer {
     margin-bottom: 150px;
+}
+
+/* for mobile screen sizes that have a width of 720px and below */
+@media screen and (max-width: 720px) {
+  main, footer {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+    #mainPhoto {
+      border-radius: 50%;
+      width: 60%;
+  }
+
+    #projectImg1 {
+      border-radius: 50%;
+      width: 60%;
+  }
+
 }
